@@ -1,0 +1,1 @@
+{"custom_id":"request-1","method":"POST","url":"/v4/embeddings","body":{"model":"embedding-2","input":"你好"}}
