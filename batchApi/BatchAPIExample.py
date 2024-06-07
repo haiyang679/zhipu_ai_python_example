@@ -8,7 +8,7 @@ client = ZhipuAI(api_key=ApiKeyConfig.zhipu_api_key_prod)  # 请填写您自己�
 
 # 1.上传Batch文件
 batchFile = client.files.create(
-    file=open("../exampleFile/batchAPITest.jsonl", "rb"), ## 填自己准本的batch请求文件
+    file=open("../exampleFile/glm3turboBatchAPITest.jsonl", "rb"), ## 填自己准本的batch请求文件
     purpose="batch"  # batch请求需要写死batch
 )
 print("batch文件id: " + batchFile.id)
